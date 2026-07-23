@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio | Thayssa Anchisa</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,600;0,800;0,900;1,400&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background-color: #faf6f8;
+            color: #111;
+        }
+        .heavy-title {
+            font-weight: 900;
+            letter-spacing: -0.04em;
+            line-height: 0.9;
+        }
+        .accent-bg {
+            background-color: #EF99C0;
+        }
+        .accent-text {
+            color: #EF99C0;
+        }
+        .accent-border {
+            border-color: #EF99C0;
+        }
+    </style>
+</head>
+<body class="min-h-screen flex flex-col justify-between selection:bg-[#EF99C0] selection:text-white">
+
+    <!-- Top Navigation Bar -->
+    <header class="w-full px-6 py-6 flex justify-between items-center border-b-2 border-[#EF99C0] bg-white/90 backdrop-blur-md sticky top-0 z-50">
+        <div>
+            <span class="font-extrabold tracking-tight text-xl text-gray-900">THAYSSA ANCHISA</span>
+            <span class="block text-xs font-medium text-gray-500 uppercase tracking-widest">Designer Gráfico & Animadora</span>
+        </div>
+        <nav class="hidden md:flex gap-6 text-sm font-semibold tracking-wide">
+            <a href="#capa" class="hover:text-[#EF99C0] transition-colors">Início</a>
+            <a href="#sobre" class="hover:text-[#EF99C0] transition-colors">Sobre</a>
+            <a href="#habilidades" class="hover:text-[#EF99C0] transition-colors">Habilidades</a>
+            <a href="#experiencia" class="hover:text-[#EF99C0] transition-colors">Experiência</a>
+            <a href="#projetos" class="hover:text-[#EF99C0] transition-colors">Projetos</a>
+            <a href="#contato" class="hover:text-[#EF99C0] transition-colors">Contato</a>
+        </nav>
+        <div class="text-xs font-bold bg-[#EF99C0] text-white px-3 py-1.5 rounded-full shadow-sm">
+            RJ, Brasil
+        </div>
+    </header>
+
+    <!-- Main Content Container -->
+    <main class="w-full max-w-7xl mx-auto px-4 sm:px-6 py-12 flex flex-col gap-24">
+
+        <!-- SECTION 1: CAPA -->
+        <section id="capa" class="min-h-[80vh] flex flex-col justify-between relative bg-white border-4 border-[#EF99C0] p-8 sm:p-12 shadow-[12px_12px_0px_0px_rgba(239,153,192,0.4)]">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center h-full my-auto">
+                <div class="lg:col-span-7 flex flex-col justify-center">
+                    <h1 class="heavy-title text-6xl sm:text-8xl lg:text-9xl uppercase text-gray-900">
+                        PORT<br>FÓLIO.
+                    </h1>
+                    <div class="mt-6 flex flex-col sm:flex-row sm:items-center gap-4">
+                        <span class="bg-[#EF99C0] text-white px-4 py-2 font-bold text-lg inline-block uppercase tracking-wider">Thayssa Anchisa</span>
+                        <p class="font-semibold text-gray-700 text-lg">Ilustradora, Designer Gráfica e Animadora.</p>
+                    </div>
+                </div>
+                <div class="lg:col-span-5 relative flex justify-center items-center">
+                   <div class="w-full max-w-md bg-gray-50 border-2 border-[#EF99C0] overflow-hidden shadow-[8px_8px_0px_0px_rgba(239,153,192,0.8)]">
+                        <img src="Ilustração Miku.jpg" alt="Ilustração Estilizada" class="w-full h-auto object-cover" onerror="this.src='https://images.unsplash.com/photo-1634017839464-5c339ebe3cb4?auto=format&fit=crop&w=800&q=80'">
+                        <div class="p-4 bg-white border-t-2 border-[#EF99C0]">
+                            <p class="text-xs font-bold uppercase tracking-wider text-gray-500">Destaque de Arte</p>
+                            <p class="font-bold text-sm">Estudo de Personagem & Estilo</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mt-12 pt-6 border-t-2 border-[#EF99C0] flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4 text-xs font-semibold">
+                <p class="text-gray-600">Principais Redes:</p>
+                <div class="flex flex-wrap gap-4 text-gray-900 underline font-bold">
+                    <a href="https://www.behance.net/ThayssAnchisa" target="_blank" class="hover:text-[#EF99C0]">Behance</a>
+                    <a href="https://www.instagram.com/lin_yssa/" target="_blank" class="hover:text-[#EF99C0]">Instagram (@lin_yssa)</a>
+                    <a href="https://www.linkedin.com/in/thayssa-anchisa-da-silva-rodrigues-alves-9033552b7?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" class="hover:text-[#EF99C0]">LinkedIn</a>
+                    <a href="https://linktr.ee/ThayssAnchisa" target="_blank" class="hover:text-[#EF99C0]">Linktree</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 2: SOBRE MIM / RESUMO -->
+        <section id="sobre" class="bg-white border-4 border-[#EF99C0] p-8 sm:p-12 shadow-[12px_12px_0px_0px_rgba(239,153,192,0.4)]">
+            <div class="border-b-4 border-[#EF99C0] pb-4 mb-8">
+                <h2 class="heavy-title text-4xl sm:text-6xl uppercase text-gray-900">SOBRE MIM.</h2>
+            </div>
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+                <div class="lg:col-span-7 flex flex-col gap-6 text-lg text-gray-800 leading-relaxed font-medium">
+                    <p>
+                        Estudante de Design de Animação com experiência sólida em criação visual, identidade visual, ilustração digital, edição e tratamento de imagens, vetorização e comunicação visual.
+                    </p>
+                    <p>
+                        Possuo domínio em ferramentas avançadas como Adobe Photoshop, Illustrator, After Effects, Premiere Pro e Blender. Busco atuar como Designer Gráfico, contribuindo com soluções criativas para projetos de branding, mídias digitais e materiais gráficos impactantes.
+                    </p>
+                    <div class="flex gap-4 pt-4">
+                        <div class="border-2 border-[#EF99C0] p-4 bg-pink-50/50">
+                            <span class="block text-2xl font-black text-gray-900">2024/Hoje</span>
+                            <span class="text-xs uppercase tracking-wider text-gray-600 font-bold">Freelancer Ativa</span>
+                        </div>
+                        <div class="border-2 border-[#EF99C0] p-4 bg-pink-50/50">
+                            <span class="block text-2xl font-black text-gray-900">UVA</span>
+                            <span class="text-xs uppercase tracking-wider text-gray-600 font-bold">Design de Animação</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="lg:col-span-5 flex justify-center">
+                    <div class="w-full border-2 border-[#EF99C0] p-4 bg-gray-900 text-white shadow-[8px_8px_0px_0px_rgba(239,153,192,0.4)]">
+                        <div class="h-64 bg-gray-950 border border-gray-800 flex items-center justify-center relative overflow-hidden">
+                            <div class="text-center p-6">
+                                <span class="block text-xl font-bold uppercase tracking-widest text-[#EF99C0]">Modelagem & 3D</span>
+                                <p class="text-xs text-gray-400 mt-2">Ambiente Isométrico Criado no Blender</p>
+                                <img src="3d.png" alt="Cenário Isométrico 3D" class="w-full h-full object-cover hover:scale-105 transition-transform duration-700" onerror="this.src='https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=800&q=80'"> 
+                            </div>
+                        </div>
+                        <p class="mt-4 text-xs tracking-wider uppercase font-bold text-gray-300 text-center">Foco criativo em cenários e modelagem</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 3: HABILIDADES TÉCNICAS -->
+        <section id="habilidades" class="bg-white border-4 border-[#EF99C0] p-8 sm:p-12 shadow-[12px_12px_0px_0px_rgba(239,153,192,0.4)]">
+            <div class="border-b-4 border-[#EF99C0] pb-4 mb-8">
+                <h2 class="heavy-title text-4xl sm:text-6xl uppercase text-gray-900">HABILIDADES TÉCNICAS.</h2>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Col 1 -->
+                <div class="border-2 border-[#EF99C0] p-6 bg-pink-50/30 flex flex-col justify-between">
+                    <div>
+                        <h3 class="font-black text-xl mb-4 border-b-2 border-[#EF99C0] pb-2 uppercase text-gray-900">Uso de Programas</h3>
+                        <ul class="space-y-3 text-sm font-semibold text-gray-700 list-disc list-inside">
+                            <li>Domínio avançado em pacote Adobe (Illustrator, Photoshop, After Effects, InDesign, Premiere Pro).</li>
+                            <li>CLIP STUDIO PAINT, Blender, Maya, toon boom harmony, 3Ds Max, Figma.</li>
+                            <li>Pacote Office (Word, Excel, PowerPoint).</li>
+                        </ul>
+                    </div>
+                    <span class="mt-6 inline-block bg-[#EF99C0] text-white text-xs font-bold px-2.5 py-1 uppercase tracking-wider self-start">Softwares</span>
+                </div>
+
+                <!-- Col 2 -->
+                <div class="border-2 border-[#EF99C0] p-6 bg-pink-50/30 flex flex-col justify-between">
+                    <div>
+                        <h3 class="font-black text-xl mb-4 border-b-2 border-[#EF99C0] pb-2 uppercase text-gray-900">Ilustração & Animação</h3>
+                        <ul class="space-y-3 text-sm font-semibold text-gray-700 list-disc list-inside">
+                            <li>Ilustração Digital & Character Design.</li>
+                            <li>Storyboard & Desenvolvimento Visual.</li>
+                            <li>Animação 2D ( fram by frame e cut out).</li>
+                            <li>Backgrounds e Cenários.</li>
+                            <li>Concept Art.</li>
+                            <li>Design de Props e Assets.</li>    
+                        </ul>
+                    </div>
+                    <span class="mt-6 inline-block bg-[#EF99C0] text-white text-xs font-bold px-2.5 py-1 uppercase tracking-wider self-start">2D & 3D</span>
+                </div>
+
+                <!-- Col 3 -->
+                <div class="border-2 border-[#EF99C0] p-6 bg-pink-50/30 flex flex-col justify-between">
+                    <div>
+                        <h3 class="font-black text-xl mb-4 border-b-2 border-[#EF99C0] pb-2 uppercase text-gray-900">Design Gráfico</h3>
+                        <ul class="space-y-3 text-sm font-semibold text-gray-700 list-disc list-inside">
+                            <li>Criação de Identidades Visuais, Logotipos, Mockups,materiais gráficos e peças para mídias digitais e impressas.</li>
+                            <li>Tratamento de imagens, vetorização avançada, Motion Design.</li>
+                            <li>Diagramação, composição visual e criação de conteúdo para redes sociais.</li>
+                        </ul>
+                    </div>
+                    <span class="mt-6 inline-block bg-[#EF99C0] text-white text-xs font-bold px-2.5 py-1 uppercase tracking-wider self-start">Branding</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 4: EXPERIÊNCIA PROFISSIONAL -->
+        <section id="experiencia" class="bg-white border-4 border-[#EF99C0] p-8 sm:p-12 shadow-[12px_12px_0px_0px_rgba(239,153,192,0.4)]">
+            <div class="border-b-4 border-[#EF99C0] pb-4 mb-8">
+                <h2 class="heavy-title text-4xl sm:text-6xl uppercase text-gray-900">EXPERIÊNCIA.</h2>
+            </div>
+
+            <div class="space-y-8">
+                <div class="border-l-4 border-[#EF99C0] pl-6 py-2">
+                    <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 mb-2">
+                        <h3 class="text-2xl font-black uppercase text-gray-900">Ilustradora Freelancer</h3>
+                        <span class="bg-[#EF99C0] text-white text-xs font-bold px-3 py-1 uppercase">08/2024 – Atual</span>
+                    </div>
+                    <p class="text-gray-700 font-medium mb-3">Desenvolvimento de identidades visuais, criação de ilustrações digitais, logotipos, artes para redes sociais e atendimento ao cliente.</p>
+                </div>
+
+                <div class="border-l-4 border-gray-300 pl-6 py-2 opacity-80">
+                    <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 mb-2">
+                        <h3 class="text-xl font-bold text-gray-800 uppercase">Experiências Anteriores (Varejo & E-commerce)</h3>
+                        <span class="text-xs font-bold bg-pink-100 text-gray-800 px-3 py-1 uppercase">2021 – 2025</span>
+                    </div>
+                    <p class="text-sm text-gray-600 font-medium">Atuação na JMJ Comércio de Roupas (Operadora de Loja / Visual Merchandising), Bem Útil (Auxiliar de E-commerce) e Esprint Import (Estoquista), desenvolvendo forte disciplina operacional e organização.</p>
+                </div>
+            </div>
+        </section>
+
+       <!-- GALERIA DE PROJETOS -->
+    <section id="projetos" class="p-8 md:p-16">
+        <h2 class="text-5xl md:text-8xl font-black uppercase tracking-tighter mb-16 italic">Projetos.</h2>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+            <!-- Thai Cookies - Identidade Visual Completa -->
+            <div class="project-card group md:col-span-2 bg-[#EF99C0]/15 border-2 border-black p-6 md:p-10 shadow-[8px_8px_0px_0px_rgba(239,153,192,0.8)]">
+                <div class="flex justify-between items-start mb-6">
+                    <div>
+                        <h3 class="text-3xl md:text-5xl font-black uppercase tracking-tighter">Thai Cookies - Identidade Visual & Embalagem</h3>
+                        <p class="text-base text-gray-700 font-medium italic mt-1">Branding completo, logotipo, padrão de estampas e mockup de embalagem</p>
+                    </div>
+                    <span class="text-xs font-mono bg-black text-[#EF99C0] px-3 py-1.5 italic font-bold">2026</span>
+                </div>
+                
+                <!-- Grid de imagens detalhadas do Thai Cookies com as imagens reais fornecidas -->
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mb-6">
+                    <div class="aspect-video bg-white border border-black overflow-hidden flex items-center justify-center p-2">
+                       <img src="Cookie brand  (2).png" alt="Cookie Brand" class="w-full h-full object-cover hover:scale-105 transition-transform duration-500" onerror="this.src='https://images.unsplash.com/photo-1558961363-fa8fdf82db35?auto=format&fit=crop&w=600&q=80'">
+                    </div>
+                    <div class="aspect-video bg-white border border-black overflow-hidden flex items-center justify-center p-2">
+                        <img src="Mockup cartão.png" alt="Mockup Cartão" class="w-full h-full object-cover hover:scale-105 transition-transform duration-500" onerror="this.src='https://images.unsplash.com/photo-1514517521153-1be72277b32f?auto=format&fit=crop&w=600&q=80'">
+                    </div>
+                    <div class="aspect-square bg-white border border-black overflow-hidden flex items-center justify-center p-2">
+                        <img "Mockup cookie embalgem.png" alt="Mockup Embalagem Cookie" class="w-full h-full object-cover hover:scale-105 transition-transform duration-500" onerror="this.src='https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=600&q=80'">
+                    </div>
+                    <div class="aspect-square bg-white border border-black overflow-hidden flex items-center justify-center p-2">
+                       <img src="pattern.png" alt="Pattern Thai Cookies" class="w-full h-full object-cover hover:scale-105 transition-transform duration-500" onerror="this.src='https://images.unsplash.com/photo-1548848221-0c2e68f14f1e?auto=format&fit=crop&w=600&q=80'">
+                    </div>
+                    <div class="aspect-[9/16] bg-white border border-black overflow-hidden flex items-center justify-center p-2">
+                        <img src="Poster Cookie.png" alt="Poster Cookie" class="w-full h-full object-cover hover:scale-105 transition-transform duration-500" onerror="this.src='https://images.unsplash.com/photo-1499636136210-6f4ee915583e?auto=format&fit=crop&w=600&q=80'">
+                    </div>
+                </div>
+                <p class="text-sm text-gray-600 italic">"Thai Cookies é uma identidade visual fofa e aconchegante, desenvolvida com carinho para doces artesanais."</p>
+            </div>
+        </section>
+
+        <!-- SECTION 6: CONTATO & FORMAÇÃO -->
+        <section id="contato" class="bg-gray-900 text-white border-4 border-[#EF99C0] p-8 sm:p-12 shadow-[12px_12px_0px_0px_rgba(239,153,192,0.4)]">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+                <div>
+                    <h2 class="heavy-title text-4xl sm:text-6xl uppercase text-white mb-6">VAMOS<br>TRABALHAR<br>JUNTOS?</h2>
+                    <p class="text-gray-300 font-medium mb-6">Entre em contato para freelas, parcerias de design ou oportunidades na área de animação e identidade visual.</p>
+                    <div class="space-y-3 font-semibold text-sm">
+                        <p><span class="text-gray-400 uppercase block text-xs">E-mail:</span> thayssaanchisa@gmail.com</p>
+                        <p><span class="text-gray-400 uppercase block text-xs">Telefone / WhatsApp:</span> (21) 96782-0962</p>
+                        <p><span class="text-gray-400 uppercase block text-xs">Localização:</span> Recreio dos Bandeirantes, Rio de Janeiro - RJ</p>
+                    </div>
+                </div>
+
+                <div class="bg-white text-gray-900 p-8 border-2 border-[#EF99C0] flex flex-col justify-between">
+                    <div>
+                        <h3 class="font-black text-xl uppercase mb-4 border-b-2 border-[#EF99C0] pb-2">Formação Acadêmica</h3>
+                        <div class="space-y-4 text-sm font-semibold">
+                            <div>
+                                <span class="block font-black text-base">Bacharelado em Design de Animação</span>
+                                <span class="text-gray-600">Universidade Veiga de Almeida (UVA)</span>
+                            </div>
+                            <div>
+                        
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mt-8 pt-6 border-t-2 border-[#EF99C0] flex flex-col gap-3">
+                        <a href="mailto:thayssaanchisa@gmail.com" class="bg-[#EF99C0] text-white text-center py-3 font-black uppercase tracking-wider hover:opacity-90 transition-opacity">Enviar E-mail</a>
+                        <div class="flex flex-wrap justify-between text-xs font-bold uppercase underline gap-2 pt-2">
+                            <a href="https://www.behance.net/ThayssAnchisa" target="_blank" class="hover:text-[#EF99C0]">Behance</a>
+                            <a href="https://www.instagram.com/lin_yssa/" target="_blank" class="hover:text-[#EF99C0]">Instagram</a>
+                            <a href="https://www.linkedin.com/in/thayssa-anchisa-da-silva-rodrigues-alves-9033552b7?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" class="hover:text-[#EF99C0]">LinkedIn</a>
+                            <a href="https://linktr.ee/ThayssAnchisa" target="_blank" class="hover:text-[#EF99C0]">Linktree</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="w-full bg-white border-t-2 border-[#EF99C0] py-8 px-6 text-center text-xs font-bold tracking-widest uppercase text-gray-700">
+        <p>&copy; 2026 Thayssa Anchisa. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
